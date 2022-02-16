@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+/* 'url("http://127.0.0.1:5500/random_quotes/images/bg2.jpg")' */
+
+
+.modal {
+  background: white;
+  width: 480px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+button.continue {
+  background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+  box-shadow: 2px 2px 2px #253042;
+}
+
+button:hover {
+    opacity: 0.7;
+    background-color: #11627a
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.text {
+  margin-bottom: 16px;
+}
+
+.bottom {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+}
+
+
+/* Style all font awesome icons */
+.fa {
+    font-size: 30px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    background: royalblue;
+    /* border: 1px solid royalblue; */
+    color: white;
+    padding: 8px 16px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #253042;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin-left: auto;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+
+  }
